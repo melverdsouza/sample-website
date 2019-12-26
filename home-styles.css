@@ -37,3 +37,38 @@
     font-weight: bold;
     margin: 3% 18%;
 }
+
+@media only screen and (min-width:768px) {
+    .first-section {
+        flex-direction: column;
+        justify-content: left;
+        height: 9em;
+    }
+    .first-section-links {
+        display: flex;
+    }
+    .heading {
+        color: #354463;
+        font-weight: bold;
+        font-size: 1.4em;
+        padding-top: 3%;
+        padding-left: 5%;
+        font-family: helvetica;
+        width: 21%;
+    }
+    .our-stories {
+        padding-left: 10%;
+    }
+    .first-section-links {
+        padding-top: 4%;
+        width: 65%;
+    }
+    .news-and-event {
+        padding-left: 10%;
+    }
+    .donate-today {
+        width: 17%;
+        margin: 4% 10% 0% 0%;
+    }
+
+}
