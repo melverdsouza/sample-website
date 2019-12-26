@@ -46,6 +46,7 @@
     }
     .first-section-links {
         display: flex;
+        justify-content: space-around;
     }
     .heading {
         color: #354463;
@@ -56,19 +57,15 @@
         font-family: helvetica;
         width: 21%;
     }
-    .our-stories {
-        padding-left: 10%;
-    }
+
     .first-section-links {
         padding-top: 4%;
         width: 65%;
     }
-    .news-and-event {
-        padding-left: 10%;
-    }
+
     .donate-today {
         width: 17%;
         margin: 4% 10% 0% 0%;
     }
 
-}
+} 
